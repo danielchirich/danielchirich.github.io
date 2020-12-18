@@ -1,0 +1,151 @@
+<!doctype html>
+
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+
+  <title>HTML5 Page </title>
+  <meta name="description" content="HTML5 Page">
+  <meta name="author" content="SitePoint">
+  <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.6.2/css/bulma.min.css">
+
+  <link rel="stylesheet" href="css/styles.css?v=1.0">
+  <script src="form.js"></script>
+  
+</head>
+
+<body>
+
+<section class="hero is-success">
+    <div class="hero-body">
+    <div class="container">
+    <h1 class="title is-spaced">
+        Cálculo Superficie
+    </h1>
+    <h2 class="subtitle">
+        Bulma framework
+        
+    </h2>
+     <span>Qué Superficie tiene que calcular?</span>
+
+    <label for="clickPiso">
+    <input type="radio" id="clickPiso" name="clickPiso" onclick="MostrarPiso()" />
+    Piso
+    </label>
+
+    <label for="clickStandart">
+    <input type="radio" id="clickStandart" name="clickStandart" onclick="MostrarStandart()" />
+    Caja Standart
+    </label>
+
+    <label for="clickEspecial">
+    <input type="radio" id="clickEspecial" name="clickEspecial" onclick="MostrarEspecial()" />
+    Caja Especial
+    </label>
+
+    <hr /> 
+    
+    <div id="largo" style="display: none">
+    Largo:
+    <input class="input is-rounded" type="text" id="largo" name="largo" />
+    </div>
+
+    <div id="ancho" style="display: none">
+    Ancho:
+    <input class="input is-rounded" type="text" id="ancho" name="ancho" />
+    </div>
+
+     <div id="alto" style="display: none">
+    Alto:
+    <input class="input is-rounded" type="text" id="alto" name="alto" />
+    </div>
+
+    <div id="aletaInf" style="display: none">
+    Aleta Inferior:
+    <input class="input is-rounded" type="text" id="aletaInf" name="aletaInf" />
+    </div>
+
+    <div id="aletaSup" style="display: none">
+    Aleta Inferior:
+    <input class="input is-rounded" type="text" id="aletaSup" name="aletaSup" />
+    </div>
+
+    <div id="calc" style="display: none">
+    Resultado Sup:
+    <input class="input is-rounded" type="text" id="calc" name="calc" />
+    </div>
+
+    <hr /> 
+
+    <div id="botonCalcPiso" style="display: none">
+    <input class="button is-white is-rounded" value="Sup_Piso" onclick="calcPiso()"> 
+    </div>
+
+    <hr /> 
+
+    <div id="botonCalcStandart" style="display: none">
+    <input class="button is-white is-rounded" value="Sup_Standart" onclick="calcStandart()"> 
+    </div>
+
+    <div id="botonCalcEspecial" style="display: none">
+    <input class="button is-white is-rounded" value="Sup_Especial" onclick="calcEspecial()"> 
+    </div>
+
+    </div>
+    </div>
+   
+   
+</section>
+
+ <section class="hero is-success">
+    <div class="hero-body">
+    <div class="container">
+    <h1 class="title is-spaced">
+        Cotización
+    </h1>
+    
+     <span>Cálculo de precio:</span>
+
+    <label for="clickPrecio">
+    <input type="radio" id="clickPrecio" name="clickPrecio" onclick="MostrarPrecio()" />
+    Precio
+    </label>
+    
+    <hr />
+      
+    <div id="sup" style="display: none">
+    Superficie:
+    <input class="input is-rounded" type="text" id="sup" name="sup" />
+    </div>
+
+    <div id="precio" style="display: none">
+    Precio m2:
+    <input class="input is-rounded" type="text" id="precio" name="precio" />
+    </div>   
+
+    <div id="resultado" style="display: none">
+    Precio item:
+    <input class="input is-rounded" type="text" id="resultado" name="resultado" />
+    </div>
+
+    <hr /> 
+
+    <div id="botonCalcPrecio" style="display: none">
+    <input class="button is-white is-rounded" value="calcularPrecio" onclick="calcPrecio()"> 
+    </div>
+
+    <hr /> 
+    <input class="button is-white is-rounded" type="button" value="Actualizar" onclick="location.reload()"/>
+    <hr />
+    </div>
+    </div>
+   
+   
+</section>
+
+
+
+
+</body>
+</html>
