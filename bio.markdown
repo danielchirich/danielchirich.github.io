@@ -41,6 +41,12 @@ Ganador del “Concurso Literario Periodismo y Terrorismo de Estado” organizad
 la Facultad de Periodismo y Comunicación Social de la UNLP. Edición del libro electrónico
 Periodismo y Terrorismo de Estado, publicado desde la Secretaría de Derechos Humanos.
 
+**2019 Abril**
+
+Tercera Mención especial por el cuento *Página 100* Concurso Literario APAIB 2019
+
+
 **2019 Octubre**
 
 Publicación del cuento *Los Ojos de Olga* en la Antología Ediciones Apaib Cuentos Premiados 2011/2018.
+
