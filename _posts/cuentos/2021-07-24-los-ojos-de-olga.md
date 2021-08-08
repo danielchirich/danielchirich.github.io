@@ -3,7 +3,7 @@ layout: post
 title: Los Ojos de Olga
 ---
 
-*2016 marzo - Ganador del “Concurso Literario Periodismo y Terrorismo de Estado” organizado por la Facultad de Periodismo y Comunicación Social de la UNLP.*
+*Primera mención Concurso APAIB auspiciado por la Secretaría de Cultura de la Ciudad de Buenos Aires*
 
 {% include image.html url="/images/apaib.jpg" description="Portada de la edición de Apaib " %}
 
